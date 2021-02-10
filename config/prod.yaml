@@ -1,5 +1,0 @@
-env : prod
-server:
-  port : 4444
-app:
-  my-data : 12
