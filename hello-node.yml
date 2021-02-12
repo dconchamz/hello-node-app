@@ -17,10 +17,6 @@ spec:
       containers:
         - name: hello
           image: mycr001.azurecr.io/tshaiman/hello-node
-          resources:
-            requests:
-              cpu: 100m
-              memory: 100Mi
           ports:
             - containerPort: 8080
               name: nodejs-port
