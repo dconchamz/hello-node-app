@@ -6,8 +6,8 @@ metadata:
     app: hello
 spec:
   ports:
-    - port: 80
-      targetPort: nodejs-port
+  - port: 80
+    targetPort: nodejs-port
   selector:
     app: hello
   type: LoadBalancer
